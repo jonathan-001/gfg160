@@ -1,7 +1,18 @@
-#include <bits/stdc++.h>
-using namespace std;
+// https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/reverse-an-array
 
-int main(){
-    // changes
-    return 0;
-}
+    
+class Solution {
+  public:
+    void reverseArray(vector<int> &arr) {
+        // code here
+        int n = arr.size();
+        int left = 0;
+        int right = n-1;
+
+        while(left<right){
+            swap(arr[left],arr[right]);
+            left++;
+            right--;
+        }      
+    }
+};
