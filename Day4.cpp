@@ -1,12 +1,5 @@
-#include <bits/stdc++.h>
-using namespace std;
+
 // https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/rotate-array-by-n-elements-1587115621
-int main(){
-
-
-    
-    return 0;
-}
 
 
 // approach 1 -> store all ele in temp and shift
