@@ -1,6 +1,7 @@
 // https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/stock-buy-and-sell2615
 
 
+
 // if arr[i]<arr[i+1] add value
 // else pass
 
